@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 
 
 public class UploadServlet extends HttpServlet {
-    static final String SAVE_DIR = "/";
+    static final String SAVE_DIR = "/Jetty/src/ubiserv/simple";
     static final int BUFFER_SIZE = 4096;
 
     @Override
