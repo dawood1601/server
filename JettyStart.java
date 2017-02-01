@@ -16,7 +16,6 @@ public class JettyStart
         context.addServlet("/Hello", "ubiserv.simple.Hello");
         context.addServlet("/Shares", "ubiserv.simple.Shares");
         context.addServlet("/Test", "ubiserv.simple.Test");
-        context.addServlet("/Execute","ubiserv.simple.Execute");
 
         server.start();
     }
