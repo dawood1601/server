@@ -35,13 +35,13 @@ public class UploadServlet extends HttpServlet {
         File saveFile = new File(SAVE_DIR + fileName);
 
         // prints out all header values
-        System.out.println("===== Begin headers =====");
-        Enumeration<String> names = request.getHeaderNames();
-        while (names.hasMoreElements()) {
-            String headerName = names.nextElement();
-            System.out.println(headerName + " = " + request.getHeader(headerName));
-        }
-        System.out.println("===== End headers =====\n");
+//        System.out.println("===== Begin headers =====");
+//        Enumeration<String> names = request.getHeaderNames();
+//        while (names.hasMoreElements()) {
+//            String headerName = names.nextElement();
+//            System.out.println(headerName + " = " + request.getHeader(headerName));
+//        }
+//        System.out.println("===== End headers =====\n");
 
         // opens input stream of the request for reading data
         InputStream inputStream = request.getInputStream();
